@@ -21,7 +21,7 @@ public class Main {
                 case 2->  search();
                 case 3 -> visitAlbum();
                 case 4 -> addSongInAlbum();
-                case 7 -> quit = true;
+                case 5 -> quit = true;
             }
         }
     }
@@ -34,6 +34,7 @@ public class Main {
         System.out.println("\t 2- Search for albums");
         System.out.println("\t 3- Visit album.");
         System.out.println("\t 4- Add song to album");
+        System.out.println("\t 5- Quit");
     }
 
     //**********************************************************************************************//
